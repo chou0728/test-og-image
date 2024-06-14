@@ -1,9 +1,7 @@
-import { useEffect, useState } from 'react';
-import { Box, Text, Button, useBoolean, useDisclosure, Fade } from '@chakra-ui/react';
+import { Box, Text, Button, useDisclosure, Fade } from '@chakra-ui/react';
 
 const About = () => {
   const { getDisclosureProps, getButtonProps } = useDisclosure();
-  const [isOpen, setIsOpen] = useBoolean();
 
   const buttonProps = getButtonProps();
   const disclosureProps = getDisclosureProps();

@@ -1,13 +1,27 @@
-import { Box, Text, Button, Fade, useDisclosure } from '@chakra-ui/react';
-import { useState } from 'react';
-// import Header from '@components/Header';
+import { Box } from '@chakra-ui/react';
+import { NextSeo } from 'next-seo';
 
-const Example = () => {
-  const { getButtonProps, getDisclosureProps } = useDisclosure();
-  const buttonProps = getButtonProps();
-  const disclosureProps = getDisclosureProps();
-
-  return <Box p="20px"></Box>;
+const Index = () => {
+  return (
+    <>
+      <NextSeo
+        title="測試title"
+        description="測試description"
+        canonical="測試 canonical"
+        openGraph={{
+          images: [
+            {
+              url: '/static/img/icons/logo.png',
+              alt: 'logo',
+            },
+          ],
+        }}
+      />
+      <Box p="20px" color="red">
+        test
+      </Box>
+    </>
+  );
 };
 
-export default Example;
+export default Index;
