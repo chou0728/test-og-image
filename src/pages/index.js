@@ -11,7 +11,7 @@ const Index = () => {
         openGraph={{
           images: [
             {
-              url: '/static/img/icons/logo.png',
+              url: '/logo.png',
               alt: 'logo',
             },
           ],
