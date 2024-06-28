@@ -30,8 +30,8 @@ const Index = () => {
         <Image src={step1Png} width={260} height={258} alt="test" />
         <Image src={step2Svg} width={260} height={258} alt="test" />
         <Image src={step2Png} width={260} height={258} alt="test" />
-        <Image src={step2Svg} width={260} height={258} alt="test" />
-        <Image src={step2Png} width={260} height={258} alt="test" />
+        <Image src={step3Svg} width={260} height={258} alt="test" />
+        <Image src={step3Png} width={260} height={258} alt="test" />
       </Box>
     </>
   );
