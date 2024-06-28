@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 import Header from '@components/Header';
-import Footer from '@components/Footer';
 
 const Layout = ({ children }) => {
   return (
@@ -11,7 +10,6 @@ const Layout = ({ children }) => {
       </Head>
       <Header />
       {children}
-      <Footer />
     </>
   );
 };
