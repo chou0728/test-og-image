@@ -1,7 +1,8 @@
 import { Box } from '@chakra-ui/react';
 import { NextSeo } from 'next-seo';
 import Image from 'next/image';
-import svg from '/public/apply-for-fund-step-1.svg';
+import stepSvg from '/public/apply-for-fund-step-1.svg';
+import stepPng from '/public/apply-for-fund-step-1.png';
 
 const Index = () => {
   return (
@@ -21,7 +22,8 @@ const Index = () => {
         }}
       />
       <Box p="20px" color="red">
-        <Image src={svg} width={260} height={258} alt="test" />
+        <Image src={stepSvg} width={260} height={258} alt="test" />
+        <Image src={stepPng} width={260} height={258} alt="test" />
       </Box>
     </>
   );
